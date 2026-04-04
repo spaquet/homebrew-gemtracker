@@ -26,13 +26,15 @@ This is the **Homebrew tap** for distributing [Gemtracker](https://github.com/sp
 <svg width="20" height="20" viewBox="0 0 20 20" fill="currentColor" xmlns="http://www.w3.org/2000/svg" style="display: inline; margin-right: 8px; vertical-align: middle;">
   <path d="M9 2C5.13 2 2 5.13 2 9C2 12.87 5.13 16 9 16C12.87 16 16 12.87 16 9C16 5.13 12.87 2 9 2ZM9 14C6.24 14 4 11.76 4 9C4 6.24 6.24 4 9 4C11.76 4 14 6.24 14 9C14 11.76 11.76 14 9 14Z"/>
   <path d="M9 6C7.9 6 7 6.9 7 8H9V6Z"/>
-</svg> **Analyze Dependencies** — Visualize your Ruby gem dependency tree
+</svg> Analyze Dependencies — Visualize your Ruby gem dependency tree
+
 <svg width="20" height="20" viewBox="0 0 20 20" fill="currentColor" xmlns="http://www.w3.org/2000/svg" style="display: inline; margin-right: 8px; vertical-align: middle;">
   <path d="M12 2C6.48 2 2 6.48 2 12C2 17.52 6.48 22 12 22C17.52 22 22 17.52 22 12C22 6.48 17.52 2 12 2ZM10 17L5 12L6.41 10.59L10 14.17L17.59 6.58L19 8L10 17Z" transform="scale(0.9)"/>
-</svg> **Security Scanning** — Identify known vulnerabilities in your dependencies
+</svg> Security Scanning — Identify known vulnerabilities in your dependencies
+
 <svg width="20" height="20" viewBox="0 0 20 20" fill="currentColor" xmlns="http://www.w3.org/2000/svg" style="display: inline; margin-right: 8px; vertical-align: middle;">
   <path d="M3 13H5V19H3V13ZM7 5H9V19H7V5ZM11 9H13V19H11V9Z" transform="translate(2)"/>
-</svg> **Interactive UI** — Navigate and explore dependencies with an intuitive terminal interface
+</svg> Interactive UI — Navigate and explore dependencies with an intuitive terminal interface
 
 ## Installation
 
