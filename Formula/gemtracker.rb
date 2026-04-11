@@ -1,16 +1,11 @@
 # typed: false
 # frozen_string_literal: true
 
-# This formula is deprecated. Please use the cask instead:
-# brew uninstall gemtracker && brew install --cask gemtracker
-
 class Gemtracker < Formula
-  desc "An interactive TUI for analyzing Ruby gem dependencies and security risks (DEPRECATED - use cask)"
+  desc "An interactive TUI for analyzing Ruby gem dependencies and security risks"
   homepage "https://github.com/spaquet/gemtracker"
-  url "https://github.com/spaquet/gemtracker/releases/download/v1.2.1/gemtracker_1.2.1_darwin_amd64.tar.gz", using: :nounzip
   version "1.2.1"
   license "MIT"
-  deprecate! date: "2025-04-10", because: :migrated_to_cask
 
   on_macos do
     if Hardware::CPU.intel?
@@ -35,7 +30,7 @@ class Gemtracker < Formula
   end
 
   def install
-    odie "This formula is deprecated. Please install the cask instead:\n  brew uninstall gemtracker\n  brew install --cask gemtracker"
+    bin.install "gemtracker"
   end
 
   test do
