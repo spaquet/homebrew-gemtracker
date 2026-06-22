@@ -5,21 +5,21 @@
 class Gemtracker < Formula
   desc "An interactive TUI for analyzing Ruby gem dependencies and security risks"
   homepage "https://github.com/spaquet/gemtracker"
-  version "1.3.9"
+  version "1.3.10"
   license "MIT"
 
   on_macos do
     if Hardware::CPU.intel?
-      url "https://github.com/spaquet/gemtracker/releases/download/v1.3.9/gemtracker_1.3.9_darwin_amd64.tar.gz"
-      sha256 "1e84b5f1a10e1914ce0cd820370376735fd5ece2a185e690eb610927fbcc9383"
+      url "https://github.com/spaquet/gemtracker/releases/download/v1.3.10/gemtracker_1.3.10_darwin_amd64.tar.gz"
+      sha256 "453ead92e7316e1b091071dcbf42fc3fdaadb15e6511638e2a477a48fadf2196"
 
       define_method(:install) do
         bin.install "gemtracker"
       end
     end
     if Hardware::CPU.arm?
-      url "https://github.com/spaquet/gemtracker/releases/download/v1.3.9/gemtracker_1.3.9_darwin_arm64.tar.gz"
-      sha256 "03c842dcca2ae0fd3ffb315a056c035e40d56e1eef4b35cb305739ecebcb939c"
+      url "https://github.com/spaquet/gemtracker/releases/download/v1.3.10/gemtracker_1.3.10_darwin_arm64.tar.gz"
+      sha256 "48c624fc88b6bf4040da480c5403a0108c1cac72594cd8309114a9dd93bd0145"
 
       define_method(:install) do
         bin.install "gemtracker"
@@ -29,15 +29,15 @@ class Gemtracker < Formula
 
   on_linux do
     if Hardware::CPU.intel? && Hardware::CPU.is_64_bit?
-      url "https://github.com/spaquet/gemtracker/releases/download/v1.3.9/gemtracker_1.3.9_linux_amd64.tar.gz"
-      sha256 "da3603e8560f3cbafdc88189e40e554d9165c6ae029fbe13774672fcdd46a338"
+      url "https://github.com/spaquet/gemtracker/releases/download/v1.3.10/gemtracker_1.3.10_linux_amd64.tar.gz"
+      sha256 "7fdb4eb05d057552be7a35fa7b5adfa61231bfc261cf42b2a11d923a5c42cae8"
       define_method(:install) do
         bin.install "gemtracker"
       end
     end
     if Hardware::CPU.arm? && Hardware::CPU.is_64_bit?
-      url "https://github.com/spaquet/gemtracker/releases/download/v1.3.9/gemtracker_1.3.9_linux_arm64.tar.gz"
-      sha256 "fe73d22dce385d9abafdbe3ada370fb2fa47a492f5baf20a4024b73cb7d0236e"
+      url "https://github.com/spaquet/gemtracker/releases/download/v1.3.10/gemtracker_1.3.10_linux_arm64.tar.gz"
+      sha256 "2670299df9f1ce46a7e629fd8684d8905e878da6c135af6bf9a965234366d7e5"
       define_method(:install) do
         bin.install "gemtracker"
       end
